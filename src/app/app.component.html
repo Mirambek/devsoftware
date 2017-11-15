@@ -1,0 +1,43 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="sidenav">
+  <a id="logo">
+    <img src="../assets/img/MNlogo.png" />
+  </a>
+  <mat-toolbar>
+    <mat-toolbar-row color="primary">
+      <a uiSref="services" uiSrefActive="active">
+        <span>
+          <mat-icon>list</mat-icon>
+        </span>
+        <span>Услуги</span>
+      </a>
+    </mat-toolbar-row>
+    <mat-toolbar-row>
+      <a uiSref="works" uiSrefActive="active">
+        <span>
+          <mat-icon>work</mat-icon>
+        </span>
+        <span>Портфолио</span>
+      </a>
+    </mat-toolbar-row>
+    <mat-toolbar-row color="primary">
+      <a uiSref="contacts" uiSrefActive="active">
+        <span>
+          <mat-icon>contacts</mat-icon>
+        </span>
+        <span>Контакты</span>
+      </a>
+    </mat-toolbar-row>
+    <mat-toolbar-row color="primary">
+      <a href="https://mirambek.wordpress.com">
+        <span>
+          <mat-icon>account_circle</mat-icon>
+        </span>
+        <span>Блог</span>
+      </a>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</div>
+<section id="main-view">
+  <ui-view class="main-ui"></ui-view>
+</section>

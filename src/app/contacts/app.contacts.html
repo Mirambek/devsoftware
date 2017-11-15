@@ -1,0 +1,39 @@
+<div class="container">
+  <article class="contact-container">
+    <div class="content-header">
+      <h2>Наши контакты</h2>
+      <p>
+        Вы можете отправить письмо с описанием ситуации через форму обратной связи или связаться с нами по телефонам:
+      </p>
+      <p>
+        <strong>
+          КЗХ - +7 701-976-35 67
+          <br>
+          Понедельник-Воскресенье 9:30  - 20:30 (GMT+6)
+        </strong>
+      </p>
+      <p>
+        &#9993; mirambek@list.ru
+    </p>
+    </div>
+    <div class="forms">
+      <div class="contact-address">
+        <mat-form-field>
+          <input matInput placeholder="Email:" [(ngModel)]="Message.Email" />
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput placeholder="Tel:" [(ngModel)]="Message.Tel" />
+        </mat-form-field>
+      </div>
+      <mat-form-field class="message">
+        <textarea matInput placeholder="Чем мы можем помочь?" [(ngModel)]="Message.Message">
+          </textarea>
+      </mat-form-field>
+    <div>
+      <button mat-raised-button (click)="sendEmail()">
+          Отправить сообщение
+      </button>
+    </div>
+    </div>
+  </article>
+</div>
