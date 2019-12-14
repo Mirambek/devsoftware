@@ -2,13 +2,13 @@ import { NgModule, Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MaterialModule } from './lib/MaterialModule';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {AngularFireModule} from 'angularfire2';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
-import { AngularFireDatabase } from 'angularfire2/database';
+import {AngularFireModule} from '@angular/fire';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { AngularFireDatabase } from '@angular/fire/database';
 
 // for AngularFireAuth
-import { AngularFireAuthModule } from 'angularfire2/auth';
-import { AngularFireAuth } from 'angularfire2/auth';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFireAuth } from '@angular/fire/auth';
 import { AppComponent } from './app.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {UIRouterModule} from '@uirouter/angular';
@@ -28,6 +28,7 @@ const firebaseConfig =  {
 
 
 let urls = [
+  { name: 'app', url: '/' , component: AppComponent },
   { name: 'works', url: '/works', component: Works },
   { name: 'services', url: '/services', component: Services },
   { name: 'contacts', url: '/contacts', component: Contacts }

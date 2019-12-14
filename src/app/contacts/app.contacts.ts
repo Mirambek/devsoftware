@@ -1,8 +1,8 @@
 import {Component} from '@angular/core';
 import {UIRouterModule,StateService} from '../../../node_modules/@uirouter/angular';
-import { AngularFireAuth } from 'angularfire2/auth';
-import { AngularFireDatabase } from 'angularfire2/database';
-import { Observable } from 'rxjs/Observable';
+import { AngularFireAuth } from '@angular/fire/auth';
+import { AngularFireDatabase } from '@angular/fire/database';
+import {Observable } from 'rxjs/Observable';
 export interface Message {
   Email:string;
   Tel:string;
