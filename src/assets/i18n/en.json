@@ -1,0 +1,45 @@
+{
+    "component":{
+        "services":"Services",
+        "portfolio":"Portfolio",
+        "contacts":"Contacts",
+        "blog":"Blog"
+    },
+    "services":{
+        "marque":"Quality service is provided and latest technologies are used. Please contact: +7(702)583-71-85.✉ mirambek@list.ru",
+        "development":"Development",
+        "webMobileAppl":"Web site and mobile application",
+        "costIncluded":"Included in the price",
+        "forWebMobile":"for WEB/Mobile",
+        "landingPagePrice":"Landing page (Main page with order and feedbacks) - starting at 85000",
+        "siteVisitPrice":"Multi-page website  - starting at 105000",
+        "e-commercePrice":"e-commerce web application - starting at 280 000",
+        "fullStackWebAndroid":"Web site/e-commerce and mobile application on Android is starting price at 750 000",
+        "fullStackWebAndroidIOS":"Web site/e-commerce and mobile application on Android and iOS is starting price at 900 000",
+        "dev_web_mobile":"development of WEB/Mobile application",
+        "installation_configure":"installation and configuration (IIS,NodeJs,Google playmarket)",
+        "seo_optimazation":"SEO optimization "
+
+    },
+    "work":{
+        "myworks":"My works",
+        "completed":"Projects completed",
+        "ticketingwebservice": "Railroad ticket booking service",
+        "fullstackwevdev":"Full stack web development",
+        "open":"Open",
+        "onlinetestingdesc":"Online testing service for government employees",
+        "wpf_cashier":"Windows WPF application for Railroad cashiers",
+        "rd_cashier":"RR cashier",
+        "full_wpf_dev":" Windows WPF application",
+        "android_dev_ana_bala":"Mobile development on Android",
+        "ana_bala":"Mother and child",
+        "fullstackmobiledev":"Full stack mobile development",
+        "kidsteaching":"Kids programming exercises",
+        "forkids":"For kids"
+    },
+    "contact":{
+        "contactus":"Contact us",
+        "descr":" Got a question? Send us a message and I will respond as soon as possible",
+        "mon-sun":"Mon-Sun 9:30  - 20:30 (GMT+6)"
+    }
+}

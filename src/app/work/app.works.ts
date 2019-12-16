@@ -16,14 +16,26 @@ export class Works {
           original: "../assets/img/JDKassirOriginal.png"
         },
         mobileApp:
-          "../assets/img/mobileAndroid.png"
+          "../assets/img/mobileAndroid.png",
+        kidsExercise:{
+          short: "../assets/img/kidsexercesSh.png",
+          original: "../assets/img/kidsexerces.png"
+        }
       }
   }
-   openDialog(): void {
+   openDialog(link): void {
+     if (!link){
     let dialogRef = this.dialog.open(WorkDialog, {
       width:'auto',
       height:'auto',
       data: { img: this.images.wpfTicket.original }
     });
+   } else {
+    let dialogRef = this.dialog.open(WorkDialog, {
+      width:'auto',
+      height:'auto',
+      data: { img: link }
+    });
+   }
   }
 }

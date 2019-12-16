@@ -1,24 +1,25 @@
 <div id="wrapper-experiences">
-  <h2 class="title">Мои работы</h2>
+  <h2 class="title">{{'work.myworks' | translate }}</h2>
   <br/>
-  <h3 class="left-padding"> Проекты выполнены: </h3>
+  <h3 class="left-padding">{{'work.completed' | translate }}: </h3>
   <hr class="block-hide" />
+  
   <div class="row left-padding">
     <div class="col-md-6 col-sm-12 col-xs-12">
-      <h3>Разработка веб приложения для покупки ЖД Билетов</h3>
+      <h3> {{'work.ticketingwebservice' | translate}}</h3>
       <a href="https://satsapar.kz">
         <h4>
           <em>www.satsapar.kz</em>
         </h4>
       </a>
-      <h3>Полная разработка веб приложения</h3>
+      <h3>{{'work.fullstackwevdev' | translate}}</h3>
       <br>
       <a class="btn" href="https://satsapar.kz">
         <span class="draw draw-bottom"></span>
         <span class="draw draw-top"></span>
         <span class="draw draw-left"></span>
         <span class="draw draw-right"></span>
-        <span class="text">Демо</span>
+        <span class="text">{{'work.open' | translate}}</span>
         <mat-icon>details</mat-icon>
       </a>
     </div>
@@ -33,21 +34,20 @@
   </div>
   <div class="row left-padding">
     <div class="col-md-6 col-sm-12 col-xs-12">
-      <h3>Разработка веб приложения для тестирования кандидатов на зачисление в кадровый резерв административной государственной
-        службы</h3>
+      <h3>{{'work.onlinetestingdesc' | translate}}</h3>
       <a href="http://onlinetest.kz">
         <h4>
           <em>www.onlinetest.kz</em>
         </h4>
       </a>
-      <h3>Полная разработка веб приложения</h3>
+      <h3>{{'work.fullstackwevdev' | translate}}</h3>
       <br>
       <a class="btn" href="http://onlinetest.kz">
         <span class="draw draw-bottom"></span>
         <span class="draw draw-top"></span>
         <span class="draw draw-left"></span>
         <span class="draw draw-right"></span>
-        <span class="text">Демо</span>
+        <span class="text">{{'work.open' | translate}}</span>
         <mat-icon>details</mat-icon>
       </a>
     </div>
@@ -62,25 +62,53 @@
   </div>
   <div class="row left-padding">
     <div class="col-md-6 col-sm-12 col-xs-12">
-      <h3>Разработка Windows WPF приложения для ЖД Кассира</h3>
-      <a href="">
+      <h3>{{'work.kidsteaching' | translate }}</h3>
+      <a href="https://github.com/Mirambek/KidProgrammingExercises">
         <h4>
-          <em>ЖД Кассир</em>
+          <em>{{'work.forkids' | translate}}</em>
         </h4>
       </a>
-      <h3>Полная разработка Windows WPF приложения</h3>
+      <h3>{{'work.fullstackwevdev' | translate}}</h3>
       <br>
-      <a class="btn" (click)="openDialog()">
+      <a class="btn" (click)="openDialog(images?.kidsExercise?.original)">
         <span class="draw draw-bottom"></span>
         <span class="draw draw-top"></span>
         <span class="draw draw-left"></span>
         <span class="draw draw-right"></span>
-        <span class="text">Подробнее</span>
+        <span class="text">{{'work.open' | translate}}</span>
         <mat-icon>details</mat-icon>
       </a>
     </div>
     <div class="col-md-6 col-sm-12 block-hide-1110 ">
-      <a class="img-portfolio" (click)="openDialog()">
+      <a class="img-portfolio" (click)="openDialog(images?.kidsExercise?.original)">
+        <div class="img-icon">
+          <img [src]="images?.kidsExercise?.short" />
+          <mat-icon>details</mat-icon>
+        </div>
+      </a>
+    </div>
+  </div>  
+  <div class="row left-padding">
+    <div class="col-md-6 col-sm-12 col-xs-12">
+      <h3>{{'work.wpf_cashier' | translate }}</h3>
+      <a href="">
+        <h4>
+          <em>{{'work.rd_cashier' | translate}}</em>
+        </h4>
+      </a>
+      <h3>{{'work.full_wpf_dev' | translate}}</h3>
+      <br>
+      <a class="btn" (click)="openDialog(null)">
+        <span class="draw draw-bottom"></span>
+        <span class="draw draw-top"></span>
+        <span class="draw draw-left"></span>
+        <span class="draw draw-right"></span>
+        <span class="text">{{'work.open' | translate}}</span>
+        <mat-icon>details</mat-icon>
+      </a>
+    </div>
+    <div class="col-md-6 col-sm-12 block-hide-1110 ">
+      <a class="img-portfolio" (click)="openDialog(null)">
         <div class="img-icon">
           <img [src]="images?.wpfTicket?.short" />
           <mat-icon>details</mat-icon>
@@ -90,25 +118,25 @@
   </div>
   <div class="row left-padding">
     <div class="col-md-6 col-sm-12 col-xs-12">
-      <h3>Разработка мобильного приложения для Android</h3>
-      <a href="https://play.google.com/store/apps/details?id=com.mn.book">
+      <h3>{{'work.android_dev_ana_bala' | translate}}</h3>
+      <a href="https://play.google.com/store/apps/details?id=com.sn.book">
         <h4>
-          <em>Ана мен Бала</em>
+          <em>{{'work.ana_bala' | translate}}</em>
         </h4>
       </a>
-      <h3>Полная разработка мобильного приложения</h3>
+      <h3>{{'work.fullstackmobiledev' | translate}}</h3>
       <br>
-      <a class="btn" href="https://play.google.com/store/apps/details?id=com.mn.book">
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.sn.book">
         <span class="draw draw-bottom"></span>
         <span class="draw draw-top"></span>
         <span class="draw draw-left"></span>
         <span class="draw draw-right"></span>
-        <span class="text">Подробнее</span>
+        <span class="text">{{'work.open' | translate }}</span>
         <mat-icon>details</mat-icon>
       </a>
     </div>
     <div class="col-md-6 col-sm-12 block-hide-1110 ">
-      <a class="img-portfolio" href="https://play.google.com/store/apps/details?id=com.mn.book">
+      <a class="img-portfolio" href="https://play.google.com/store/apps/details?id=com.sn.book">
         <div class="img-icon">
           <img [src]="images?.mobileApp" />
           <mat-icon>details</mat-icon>

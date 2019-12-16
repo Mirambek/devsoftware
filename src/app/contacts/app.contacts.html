@@ -1,15 +1,15 @@
 <div class="container">
   <article class="contact-container">
     <div class="content-header">
-      <h2>Наши контакты</h2>
+      <h2>{{'contact.contactus' | translate}}</h2>
       <p>
-        Вы можете отправить письмо с описанием ситуации через форму обратной связи или связаться с нами по телефонам:
+       {{'contact.descr' | translate}}:
       </p>
       <p>
         <strong>
-          КЗХ - +7 701-976-35 67
+          KZ - +7 702-583-71-85
           <br>
-          Понедельник-Воскресенье 9:30  - 20:30 (GMT+6)
+          {{'contact.mon-sun' | translate }}
         </strong>
       </p>
       <p>
@@ -26,7 +26,7 @@
         </mat-form-field>
       </div>
       <mat-form-field class="message">
-        <textarea matInput placeholder="Чем мы можем помочь?" [(ngModel)]="Message.Message">
+        <textarea matInput placeholder="Message" [(ngModel)]="Message.Message">
           </textarea>
       </mat-form-field>
     <div>

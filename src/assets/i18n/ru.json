@@ -1,0 +1,44 @@
+{
+    "component":{
+        "services":"Услуги",
+        "portfolio":"Портфолио",
+        "contacts":"Контакты",
+        "blog":"Блог"
+    },
+    "services":{
+        "marque":"без посредников(недорого,качественно), используем передовые технологии. Контакты:+7(702)583-71-85.&#9993; mirambek@list.ru",
+        "development":"Разработка",
+        "webMobileAppl":"веб сайтов и мобильных приложений",
+        "costIncluded":"В стоимость входит",
+        "forWebMobile":"для WEB/Mobile",
+        "landingPagePrice":"Landing page (Одностраничный сайт с формами заявок и обратного звонка) - от 95000",
+        "siteVisitPrice":"Сайт визитка - от 115000",
+        "e-commercePrice":"e-commerce сайт - от 200 000",
+        "fullStackWebAndroid":"Веб сайт,e-commerce, и мобильные приложение на Android - от 550 000",
+        "fullStackWebAndroidIOS":"Веб сайт,e-commerce, и мобильные приложение на Android и iOS «под ключ» - от 900 000"	,
+        "dev_web_mobile":"разработка WEB/Mobile приложение",
+        "installation_configure":"установка и настройка системы (IIS,NodeJs,Google playmarket)",
+        "seo_optimazation":"регистрация сайта в поисковых системах"        
+    },
+    "work":{
+        "myworks":"Мои работы",
+        "completed":"Проекты выполнены",
+        "ticketingwebservice": "Разработка веб приложения для покупки ЖД Билетов",
+        "fullstackwevdev":"Полная разработка веб приложения",
+        "open":"Демо",
+        "onlinetestingdesc":"Разработка веб приложения для тестирования кандидатов на зачисление в кадровый резерв административной государственной службы",
+        "wpf_cashier":"Разработка Windows WPF приложения для ЖД Кассира",
+        "rd_cashier":"ЖД Кассир",
+        "full_wpf_dev":"Полная разработка Windows WPF приложения",
+        "android_dev_ana_bala":"Разработка мобильного приложения для Android",
+        "ana_bala":"Ана мен Бала",
+        "fullstackmobiledev":"Полная разработка мобильного приложения",
+        "kidsteaching":"Kids programming exercises",
+        "forkids":"For kids"
+    },
+    "contact":{
+        "contactus":"Наши контакты",
+        "descr":" Вы можете отправить письмо с описанием ситуации через форму обратной связи или связаться с нами по телефонам",
+        "mon-sun":"Понедельник-Воскресенье 9:30  - 20:30 (GMT+6)"
+    }
+}
